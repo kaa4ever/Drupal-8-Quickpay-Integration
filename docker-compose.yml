@@ -6,7 +6,7 @@ services:
     volumes:
       - .:/usr/share/nginx
     ports:
-      - "8080:80"
+      - "8092:80"
   php:
     build: devops/docker/php
     container_name: quickpay.php
