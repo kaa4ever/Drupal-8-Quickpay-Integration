@@ -1,0 +1,22 @@
+uuid: 7d0b6c36-0f92-4e39-9344-56e3f9142e4e
+langcode: da
+status: true
+dependencies:
+  enforced:
+    module:
+      - quickpay_integration_example
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: 'main:'
+_core:
+  default_config_hash: CcMuU_0OZhDiAWZrFqr1g1uGEesoeze2tOkvqzEWfvA
+name: 'Quickpay example order'
+type: quickpay_integration_order
+description: 'Example order used by the Quickpay Integration Example module'
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: false

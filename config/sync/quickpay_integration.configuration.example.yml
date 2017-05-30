@@ -1,0 +1,54 @@
+uuid: 7ad15b11-f648-444d-be23-530bd512fb30
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - quickpay_integration_example
+_core:
+  default_config_hash: VW1TyQZocIAtGMpj8UvUUcvH-4x9zBCHVRyivza6j-A
+id: example
+label: 'Example configuration'
+description: 'Configuration used for the Quickpay Integration Example module'
+merchant_id: '37649'
+agreement_id: '143610'
+api_key: 920fdd6cc8fc89a2a25ce6e450c68247f40986810c681c975f623c51d3f92135
+private_key: 62f283587f1ff2cc0c95bbfe0718cbe4ec37b08781820eacafd28848d26aa626
+order_prefix: ''
+language: en
+payment_method: selected
+accepted_cards:
+  dankort: dankort
+  edankort: 0
+  visa: 0
+  visa-dk: 0
+  3d-visa: 0
+  3d-visa-dk: 0
+  visa-electron: 0
+  visa-electron-dk: 0
+  3d-visa-electron: 0
+  3d-visa-electron-dk: 0
+  mastercard: 0
+  mastercard-dk: 0
+  mastercard-debet-dk: 0
+  3d-mastercard: 0
+  3d-mastercard-dk: 0
+  3d-mastercard-debet-dk: 0
+  3d-maestro: 0
+  3d-maestro-dk: 0
+  jcb: 0
+  3d-jcb: 0
+  diners: 0
+  diners-dk: 0
+  american-express: 0
+  american-express-dk: 0
+  danske-dk: 0
+  nordea-dk: 0
+  fbg1886: 0
+  ikano: 0
+  paypal: 0
+  sofort: 0
+  viabill: 0
+autofee: false
+autocapture: false
+debug: false

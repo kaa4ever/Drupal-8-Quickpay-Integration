@@ -1,0 +1,26 @@
+uuid: f4e0dc86-671c-4b05-8a69-1e9f7a3e1b27
+langcode: da
+status: true
+dependencies:
+  enforced:
+    module:
+      - quickpay_integration_example
+  module:
+    - node
+_core:
+  default_config_hash: dNNLS_UkBv2Iv69f9RARgy-ygQjzFg4w6Owpm8OIuKY
+id: node.field_example_transaction_id
+field_name: field_example_transaction_id
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

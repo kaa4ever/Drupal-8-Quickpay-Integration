@@ -1,0 +1,71 @@
+uuid: 4cc61619-b50f-4f94-8edd-897eb4409f80
+langcode: da
+status: true
+dependencies:
+  config:
+    - field.field.node.quickpay_integration_order.field_example_transaction_id
+    - node.type.quickpay_integration_order
+  enforced:
+    module:
+      - quickpay_integration_example
+  module:
+    - path
+_core:
+  default_config_hash: aFyjIrPmy4iKp4J6N6JNbxywf9U3Yfijo49Ptn7mlno
+id: node.quickpay_integration_order.default
+targetEntityType: node
+bundle: quickpay_integration_order
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_example_transaction_id:
+    weight: 33
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  path:
+    type: path
+    weight: 30
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 15
+    third_party_settings: {  }
+    region: content
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 16
+    third_party_settings: {  }
+    region: content
+  title:
+    type: string_textfield
+    weight: -5
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  uid:
+    type: entity_reference_autocomplete
+    weight: 5
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+hidden: {  }

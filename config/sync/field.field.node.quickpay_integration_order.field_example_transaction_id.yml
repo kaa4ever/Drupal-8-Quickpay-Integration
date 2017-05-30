@@ -1,0 +1,26 @@
+uuid: 913335ed-4c79-4c06-b12d-6872b105103b
+langcode: da
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_example_transaction_id
+    - node.type.quickpay_integration_order
+  enforced:
+    module:
+      - quickpay_integration_example
+_core:
+  default_config_hash: 0Z6JveB53oWvOgMSX3G8BqN1wF1aVN5cW_Ce7i6ttMg
+id: node.quickpay_integration_order.field_example_transaction_id
+field_name: field_example_transaction_id
+entity_type: node
+bundle: quickpay_integration_order
+label: 'Transaction ID'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,33 @@
+uuid: 937d117c-8be1-4821-b8d8-9f0bd187251a
+langcode: da
+status: true
+dependencies:
+  config:
+    - field.field.node.quickpay_integration_order.field_example_transaction_id
+    - node.type.quickpay_integration_order
+  enforced:
+    module:
+      - quickpay_integration_example
+  module:
+    - user
+_core:
+  default_config_hash: 8Hdumn3dBlSuIfGdCnpuLx5sQ7mc8xRp1G5aj92EiuI
+id: node.quickpay_integration_order.default
+targetEntityType: node
+bundle: quickpay_integration_order
+mode: default
+content:
+  field_example_transaction_id:
+    type: string
+    weight: 103
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    label: above
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }
